@@ -1,0 +1,98 @@
+{
+  "dataset_type": "MCP_V1_MINIMAL",
+  "input_csv": "dataset_MCP_V1.csv",
+  "lookback": 90,
+  "horizon": 1,
+  "train_ratio": 0.8,
+  "feature_cols": [
+    "dow_sin",
+    "dow_cos",
+    "doy_sin",
+    "doy_cos",
+    "month"
+  ],
+  "date_col": "DATA",
+  "company_col": "NomeRazaoSocialEmpresa",
+  "raw_target_col": "QuantidadeConsumoAtivo",
+  "target_col": "CONSUMO_DIA",
+  "n_empresas": 15,
+  "company_map": {
+    "0": "ATACADAO DIA A DIA S.A",
+    "1": "CAMIL ALIMENTOS S.A.",
+    "2": "DART DO BRASIL INDUSTRIA E COMERCIO LIMITADA",
+    "3": "DIEGO PACHECO PIRES 03546559142",
+    "4": "ESTOK COMERCIO E REPRESENTACOES S.A.",
+    "5": "IRMAOS MUFFATO & CIA LTDA",
+    "6": "JOSE MARIA CORREIA DA SILVA",
+    "7": "LIMOTEXTIL LTDA",
+    "8": "MALHARIA INDAIAL LTDA",
+    "9": "MYRALIS INDUSTRIA FARMACEUTICA LTDA",
+    "10": "NOVACHAMA TRATAMENTO TERMICO LTDA",
+    "11": "PLASNORTHON INDUSTRIA E COMERCIO LTDA",
+    "12": "PURATOS BRASIL LTDA",
+    "13": "UNIGRA BRASIL INDUSTRIA E COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+    "14": "WESTROCK, CELULOSE, PAPEL E EMBALAGENS LTDA"
+  },
+  "y_stats": {
+    "0": {
+      "y_mean": 39875.89263836017,
+      "y_std": 4435.407774623572
+    },
+    "1": {
+      "y_mean": 13236.060305555557,
+      "y_std": 5940.045182350392
+    },
+    "2": {
+      "y_mean": 48041.00835866261,
+      "y_std": 12816.804140326867
+    },
+    "3": {
+      "y_mean": 8910.500041237114,
+      "y_std": 1643.598977045694
+    },
+    "4": {
+      "y_mean": 3097.7435605381165,
+      "y_std": 1003.8180000886094
+    },
+    "5": {
+      "y_mean": 383437.45956076134,
+      "y_std": 99346.9143792666
+    },
+    "6": {
+      "y_mean": 3274.151324444444,
+      "y_std": 2007.161409677526
+    },
+    "7": {
+      "y_mean": 5564.66802739726,
+      "y_std": 1343.9612776125791
+    },
+    "8": {
+      "y_mean": 17173.215572519086,
+      "y_std": 6545.678932682068
+    },
+    "9": {
+      "y_mean": 9071.415624761905,
+      "y_std": 2105.8909268973307
+    },
+    "10": {
+      "y_mean": 3061.88982300885,
+      "y_std": 976.4284488660692
+    },
+    "11": {
+      "y_mean": 3710.9847297297297,
+      "y_std": 2243.5859907140198
+    },
+    "12": {
+      "y_mean": 17677.251562162164,
+      "y_std": 5272.928661368755
+    },
+    "13": {
+      "y_mean": 12288.775548387097,
+      "y_std": 3288.80257060956
+    },
+    "14": {
+      "y_mean": 257748.71377480918,
+      "y_std": 144793.77454518378
+    }
+  }
+}

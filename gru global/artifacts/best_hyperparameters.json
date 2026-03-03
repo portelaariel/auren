@@ -1,0 +1,17 @@
+{
+  "model_hps": {
+    "emb_dim": 8,
+    "gru_units": 64,
+    "dense_units": 128,
+    "dropout": 0.0,
+    "lr": 0.0003701246197274161
+  },
+  "train_hps": {
+    "batch_size": 512,
+    "epochs": 20,
+    "val_split": 0.1,
+    "patience_es": 4,
+    "patience_rlr": 2
+  },
+  "best_val_loss": 1.1874821186065674
+}

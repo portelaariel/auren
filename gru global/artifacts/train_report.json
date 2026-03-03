@@ -1,0 +1,25 @@
+{
+  "model_hps": {
+    "emb_dim": 8,
+    "gru_units": 64,
+    "dense_units": 128,
+    "dropout": 0.0,
+    "lr": 0.0003701246197274161
+  },
+  "train_hps": {
+    "batch_size": 512,
+    "epochs": 20,
+    "val_split": 0.1,
+    "patience_es": 4,
+    "patience_rlr": 2
+  },
+  "test_norm": {
+    "loss": 0.8809989094734192,
+    "mae_norm": 0.7180417776107788
+  },
+  "mae_original": 16294.939453125,
+  "rmse_original": 42308.84765625,
+  "model_path": "/Users/arielportela/Documents/auren/gru global/artifacts/model_global_gru.keras",
+  "npz_path": "/Users/arielportela/Documents/auren/gru global/artifacts/global_dataset_daily.npz",
+  "meta_path": "/Users/arielportela/Documents/auren/gru global/artifacts/global_dataset_daily_meta.json"
+}
